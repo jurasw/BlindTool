@@ -32,10 +32,10 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("wskaż najgorętszy obiekt na świecie")) {
+    if (text.includes("Wskaż najgorętszy obiekt na świecie")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "szukanie najprzystojniejszej bestii na świecie ...";
+      p.innerText = "szukanie najgorętrzego obektu na świcie ...";
       texts.appendChild(p);
       console.log("opening youtube");
       window.open("https://www.facebook.com/jurek.wisniewski.33/");
