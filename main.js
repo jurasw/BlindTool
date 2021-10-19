@@ -32,13 +32,13 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("Wskaż największego kurwiszony na świecie")) {
+    if (text.includes("hasjdhaskl")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "Pip pap pup Wyszukiwanie największego kurwiszona na świcie ...";
+      p.innerText = "";
       texts.appendChild(p);
       console.log("opening youtube");
-      window.open("https://www.facebook.com/nikola.koralewska.737");
+      window.open("");
     }
 
     p = document.createElement("p");
