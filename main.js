@@ -40,7 +40,7 @@ recognition.addEventListener("result", (e) => {
       console.log("opening youtube");
       window.open("https://www.facebook.com/jurek.wisniewski.33/");
     }
-    if (text.includes("Wskaż najwiekszego kurwiszona na świecie")) {
+    if (text.includes("Wskaż najwiekszego kurwiszony na świecie")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "Pip pap pup Wyszukiwanie największego kurwiszona na świcie ...";
