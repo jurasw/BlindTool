@@ -32,15 +32,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("Wskaż najgorętszy obiekt na świecie")) {
-      p = document.createElement("p");
-      p.classList.add("replay");
-      p.innerText = "szukanie najgorętrzego obektu na świcie ...";
-      texts.appendChild(p);
-      console.log("opening youtube");
-      window.open("https://www.facebook.com/jurek.wisniewski.33/");
-    }
-    if (text.includes("Wskaż najwiekszego kurwiszony na świecie")) {
+    if (text.includes("Wskaż największego kurwiszony na świecie")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "Pip pap pup Wyszukiwanie największego kurwiszona na świcie ...";
@@ -48,6 +40,7 @@ recognition.addEventListener("result", (e) => {
       console.log("opening youtube");
       window.open("https://www.facebook.com/nikola.koralewska.737");
     }
+
     p = document.createElement("p");
   }
   
