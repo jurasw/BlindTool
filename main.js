@@ -32,7 +32,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("pokaz kto jest najprzystojniejszą bestią na świecie")) {
+    if (text.includes("wskaż najgorętszy obiekt na świecie")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "szukanie najprzystojniejszej bestii na świecie ...";
