@@ -32,13 +32,13 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Cifar";
       texts.appendChild(p);
     }
-    if (text.includes("open my YouTube")) {
+    if (text.includes("pokaz kto jest najprzystojniejszą bestią na świecie")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "opening youtube channel";
+      p.innerText = "szukanie najprzystojniejszej bestii na świecie ...";
       texts.appendChild(p);
       console.log("opening youtube");
-      window.open("https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ");
+      window.open("https://www.facebook.com/jurek.wisniewski.33/");
     }
     p = document.createElement("p");
   }
